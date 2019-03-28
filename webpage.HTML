@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Eksamen</title>
+	<meta charset="UTF-8">
+    <LINK href="styles.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<header>
+    	<div class="header">
+    		      <img id="logo" src="area9lyceum.png">
+              <a href="https://area9learning.com/">Hovedside</a>
+              <a href="https://area9learning.com/our-team/">Om os</a>
+       </div>
+  </header>
+
+       	<h1 id="tekstoverskrift"><script type="text/javascript">document.getElementById('tekstoverskrift').innerText = titeltekst </script></h1>
+       	<h2 id="undertitel"><script type="text/javascript">document.getElementById('undertitel').innerText = undertitel </script></h2>
+
+       	<div class="knapper" align="center">
+       		<button class="button" onclick="farvforholdsord()">Fremhæv forholdsord</button>
+       		<button class="button" onclick="farvhvis()">Modalverber</button>
+       		<button class="button" onclick="forstør()">Forøg skrift</button>
+       		<button class="button" onclick="formindsk()">Formindsk skrift</button>
+       	</div>
+
+       		<div class="row">
+       			<div class="column-one">
+	       			<p id="tekst"><script type="text/javascript">document.getElementById('tekst').innerHTML = boghvedetekst </script></p>
+	       			<p><a id="kblogo" href="http://wayback-01.kb.dk/wayback/20101105080256/http:/www2.kb.dk/elib/lit/dan/andersen/eventyr.dsl/hcaev019.htm" title="boghvedetekst" target="_blank"><img src="kb logo.gif" alt="Kildetekst" style="width:50%;"></a></p>
+       		</div>
+
+
+       		<div class="column-two">
+	               <a href="http://www.kb.dk/images/billed/2010/okt/billeder/object490808/da/" title="Billede af H.C. Andersen" target="_blank">
+	               <img id="HC" src="HCANDERSEN.jpg" alt="H.C. Andersen" style="width:100%;"></a>
+	               <p align="center">Læs om forfatteren <a href="https://litteratursiden.dk/forfattere/h-c-andersen" title="litteratursiden om H.C. Andersen" target="_blank">her</a></p>
+            </div>
+          </div>
+
+    <footer>
+    <div class="footer"> 
+    	<small>
+    	<p>&copy; 2018 Area9 Learning</p>
+    	</small>
+    </div>
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* CSS dokument */
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #FFFFFF
+
+}
+
+h1, h2 {
+	text-align: center;
+	line-height: 50px
+}
+
+
+#tekst {
+	margin: 20px;
+	text-align: justify;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+ .footer{
+  padding: 13px 40px;
+  background: #222933;
+  text-align: center;
+  color: white;
+}
+
+	
+#logo {
+	width: 180px;
+	float: right;
+}
+
+
+#HC {
+margin-top: 20px;}
+
+/*inspireret af W3 CSS 
+https://www.w3schools.com/howto/howto_css_two_columns.asp*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.column-one {
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+
+.column-two{
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*inspireret af W3 CSS 
+https://www.w3schools.com/css/css3_buttons.asp */
+.button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+};
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*inspireret af  CSS fra obligatorisk opgave 3 af Naja Suhr*/
+.header {
+  overflow: hidden;
+  background-color: #222933;
+  padding: 13px 40px;
+}
+
+.header a {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 10px;
+display: inline-flex;
+
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
